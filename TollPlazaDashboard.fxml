@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="dashboardfx" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iub.demo22.TollPlazaDashboard">
+   <center>
+      <AnchorPane prefHeight="0.0" prefWidth="786.0" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <VBox prefHeight="450.0" prefWidth="800.0" spacing="10" BorderPane.alignment="CENTER">
+         <children>
+            <Button onAction="#dashboardOA" prefHeight="30.0" prefWidth="158.0" text="Dashboard">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button onAction="#tollcollectionreportsOA" prefHeight="26.0" prefWidth="158.0" text="Toll Collection Reports" />
+            <Button onAction="#tollratesmanagementsOA" prefHeight="26.0" prefWidth="158.0" text="Toll Rates Management" />
+            <Button onAction="#revenuereportsOA" prefHeight="26.0" prefWidth="158.0" text="Revenue Reports" />
+            <Button onAction="#vehiclesclassificationOA" prefHeight="26.0" prefWidth="158.0" text="Vehicle Classification" />
+            <Button onAction="#employeemanagementsOA" prefHeight="26.0" prefWidth="159.0" text="Employee Management" />
+            <Button onAction="#disputeresolutionOA" prefHeight="26.0" prefWidth="160.0" text="Dispute Resolution" />
+            <Button onAction="#gatemanagementsOA" prefHeight="26.0" prefWidth="160.0" text="Gate Management" />
+            <Button onAction="#maintanancemanagementsOA" text="Maintenance Management" />
+            <Button onAction="#trafficmonitoringOA" prefHeight="26.0" prefWidth="158.0" text="Traffic Monitoring" />
+            <Button onAction="#perfomancemonitoringOA" prefHeight="26.0" prefWidth="158.0" text="Performance Monitoring" />
+            <Button onAction="#securitysettingsOA" prefHeight="26.0" prefWidth="157.0" text="Security Settings" />
+            <Button onAction="#profileOA" prefHeight="26.0" prefWidth="158.0" text="Profile" />
+            <Button onAction="#signoutOA" prefHeight="30.0" prefWidth="157.0" text="Sign Out">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>
